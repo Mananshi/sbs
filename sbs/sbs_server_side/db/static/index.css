@@ -1,5 +1,5 @@
 body{
-   background-color: skyblue;
+   background-color:floralwhite;
 }
 img{
   padding: 16px;
@@ -20,7 +20,7 @@ form {
   /* Full-width inputs */
   input[type=text], input[type=password] {
     background-color: white;
-    width: 30%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -50,6 +50,8 @@ form {
 Add padding to containers */
   .container {
     padding: 16px;
+    border-width: 20%;
+    border: 2px solid black;
   }
   
   /* The "Forgot password" text */

@@ -15,7 +15,7 @@
 	<link href="{% static 'home.css' %}" rel="stylesheet" type="text/css">
 	<script src="{% static 'home.js'%}"></script>
 </head> 
-<body style="background-color:lightcyan;">
+<body style="background-color:azure;">
 	<img src="{% static 'logo2.jpeg' %}" style="width: 20%; padding: 12px;">
 	<nav class="navbar navbar-default navbar-expand-lg navbar-light">
 		<div class="navbar-header d-flex col">
@@ -63,9 +63,9 @@
 										<p style="text-align:center;">Search by Room number</p>
 										<input type="text" id="room_search" class="form-control" placeholder="Search by room number" name = "room" value = "{{room}}">
 										<p style="text-align: center;">Or<br>Search by time slot</p>
-										From:
+										<p style="text-align: left;">From:</p>
 										<input type="time" id="timeFrom" class="form-control" placeholder="from" name = "from" value = "{{from}}"><br>
-										To:
+										<p style="text-align: left;">To:</p>
 										<input type="time" id="timeTo" class="form-control" placeholder="from" name = "to" value = "{{to}}">
 									
 										<span class="input-group-btn">
@@ -97,7 +97,7 @@
 		});
 	});
 	</script>
-	<div class="table-responsive" style="background-color: lightcyan;">
+	<div class="table-responsive" style="background-color: azure;">
 		
 		<div class="alert alert-warning alert-dismissible fade in" style="text-align: center;">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>

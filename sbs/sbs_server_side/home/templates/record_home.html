@@ -52,7 +52,7 @@
 								<form>
 								 <input type="date" id="datepicker" class="form-control">							
 								<p style="text-align:center;">Search by Room number</p><input type="number" id="roomNumber" class="form-control" placeholder="Room number" ><p style="text-align: center;">Or<br>Search by time slot</p>
-								To:<input type="time" id="timeTo" class="form-control" placeholder="to" ><input type="time" id="timeFrom" class="form-control" placeholder="from" >
+								To:<input type="time" id="timeTo" class="form-control" placeholder="to" ><br>From:<input type="time" id="timeFrom" class="form-control" placeholder="from" >
 								</form>
 								<span class="input-group-btn">
 									<button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
@@ -133,7 +133,7 @@
   </a>
 </div>
 -->
-<div  style="background-color: lightcyan;" class="table-responsive">
+<div  style="background-color: azure;" class="table-responsive">
   <h2>Event Records</h2>
 	{% if record_slot %}
 		<table id="customers" style="width:auto; min-width: 50%; background-color: white;">
@@ -165,7 +165,7 @@
 		<div class="modal-dialog">
 			<div class="modal-header" style="padding: 4%; background-color: white; color: #6A6A6A; font-family: 'Crete Round', serif;">
 				<button type="button" class="close" data-dismiss="modal">&times;</button>
-				<h4 class="modal-title">Send Request</h4>
+				<h4 class="modal-title">Request Information</h4>
 			</div>
 			<div class="modal-body" style="padding: 4%; background-color: white; color: #6A6A6A; font-family: 'Crete Round', serif;">					<p>Record</p>
 				Date:<input type = "date" id = "date" name = "date" value = "" required><br>
