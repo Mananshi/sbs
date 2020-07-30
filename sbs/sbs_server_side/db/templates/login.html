@@ -5,7 +5,7 @@
 {% load static%}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Login Page</title>
   <link href="{% static '/index.css' %}" rel="stylesheet" type="text/css">
   <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -23,8 +23,8 @@
     crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <img src="{% static '/logo2.jpeg' %}">
+<body style="background-color: skyblue">
+  <img src="{% static '/logo2.jpeg' %}" style="width=20%">
   <form action="{% url 'db:user_login'%}" method="post">
    {% csrf_token %}
     <h2><strong>Log-In</strong></h2>
@@ -35,7 +35,7 @@
       <label for="password"><strong>Password</strong></label>
       <input type="password" placeholder="****" name="password" required>
       <br>
-      <input class="btn btn-primary" type="submit" value="Login">
+      <input class="btn btn-success" type="submit" value="Login">
       <div class="custom-control custom-checkbox">
         <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
         <label class="custom-control-label" for="defaultChecked2">Remember me!</label>
@@ -46,7 +46,7 @@
       </div>
       <footer>
         <br><br><br>
-        <div class="footer-copyright text-center py-3">For more information contact:<br>mananshi.v@ahduni.edu.in<br>bhavya.p@ahduni.edu.in
+        <div class="footer-copyright text-center py-3" style="color: seagreen;">For more information contact:<br><a style="color: seagreen;" href="https://mail.google.com/mail/?view=cm&fs=1&to=mananshi.v@ahduni.edu.in">mananshi.v@ahduni.edu.in</a><br><a style="color: seagreen;" href="https://mail.google.com/mail/?view=cm&fs=1&to=bhavya.p@ahduni.edu.in">bhavya.p@ahduni.edu.in</a>
         </div>
 
       </footer>

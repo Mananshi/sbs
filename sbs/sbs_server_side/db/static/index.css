@@ -1,10 +1,5 @@
 body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3Bi3xRyRBgcXKzzYcIfpvi35GkfH3eZgGq0BIb2bD2XwAwfdg&usqp=CAU"); 
-    background-color: pink;  
-    height: 900px;
-    background-position: center;  
-    background-repeat: no-repeat;  
-    background-size: cover;
+   background-color: skyblue;
 }
 img{
   padding: 16px;
@@ -24,6 +19,7 @@ form {
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
+    background-color: white;
     width: 30%;
     padding: 12px 20px;
     margin: 8px 0;

@@ -1,6 +1,6 @@
 body{
     font-family: 'Varela Round', sans-serif;
-    background-color: lavenderblush;
+    background-color: lightcyan;
 }
 
 h2{
@@ -8,7 +8,6 @@ h2{
     color:indigo;
 }
 table{
-    background-color: mistyrose;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -21,6 +20,19 @@ th,td {
     padding:1px;
     text-align: left;
     
+}
+button {
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    background: #ffffff;
+    border: 1px solid white;
+}
+
+button:hover {
+    border: 1px solid white;
+    background: lightcyan;
+    color:black;
 }
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -56,7 +68,7 @@ th,td {
     padding: 0 !important;
 }	
 .navbar {
-    background:lightgray;
+    background:midnightblue;
     padding-left: 16px;
     padding-right: 16px;
     border-bottom: 1px solid #dfe3e8;
@@ -72,7 +84,7 @@ th,td {
     color: #eb5844;		
 }
 .navbar ul.nav li a {
-    color: indigo;
+    color: whitesmoke;
 }
 .navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
     color: #f08373 !important;
@@ -84,20 +96,25 @@ th,td {
 .search-box {
     width: 100%;
     position: relative;
-}	
-.search-box input {		
-    border-color: #dfe3e8;        
+}
+
+.search-box input {
+    border-color: #dfe3e8;
     box-shadow: none
 }
-.search-box input, .search-box .btn {
+
+.search-box input,
+.search-box .btn {
     min-height: 38px;
     border-radius: 2px;
 }
+
 .search-box .input-group-btn .btn {
     border-color: #eb5844;
     background: #eb5844;
     outline: none;
 }
+
 .navbar .nav-item i {
     font-size: 18px;
     line-height: 16px;
@@ -106,6 +123,7 @@ th,td {
     display: none;
 }
 .navbar .dropdown-menu {
+    background-color: midnightblue;
     border-radius: 1px;
     border-color: #e5e5e5;
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
@@ -114,6 +132,8 @@ th,td {
     padding: 6px 20px;
 }
 .navbar .navbar-right .dropdown-menu {
+    background-color: midnightblue;
+    color: lemonchiffon;
     width: 400px;
     padding: 20px;
     left: auto;
@@ -126,7 +146,7 @@ th,td {
 @media (max-width: 768px){
     .navbar .navbar-right .dropdown-menu {
         width: 100%;
-        background: transparent;
+        background: midnightblue;
         padding: 10px 20px;
     }
     .navbar .input-group {
